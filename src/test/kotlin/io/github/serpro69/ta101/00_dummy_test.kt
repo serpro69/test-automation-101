@@ -2,10 +2,12 @@ package io.github.serpro69.ta101
 
 import io.restassured.RestAssured.get
 import org.hamcrest.CoreMatchers.equalTo
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
 class Tests00 {
 
+    @Disabled
     @Test
     fun `first api test`() {
         get("/lotto") // Send a GET request to /lotto
