@@ -55,7 +55,7 @@ private val RequestSpecification.jsonBody: (id: Int, status: String) -> RequestS
             .contentType(ContentType.JSON)
     }
 
-class Tests04 {
+class Tests05 {
 
     @Test
     fun `test basic auth`() {
